@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio | Mayank Bisht</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar" role="navigation">
+            <ul>
+                <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                <li><a href="#about" onclick="showSection('about')">About</a></li>
+                <li><a href="#skills" onclick="showSection('skills')">Skills</a></li>
+                <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </div>
+
+        <section id="home" class="info section">
+            <h3>Hello, I'm <span>Mayank Bisht</span>.</h3>
+            <h1><span>W</span>EB <span>D</span>EVELOPER & <span>ML</span> EXPERT</h1>
+            <h3>Passionate about crafting beautiful, functional websites and developing intelligent machine learning solutions.</h3>
+            <a href="#contact" class="button">Hire Me</a>
+            <img src="" class="profile-pic" alt="Profile Picture">
+        </section>
+
+        <section id="about" class="info section">
+            <h1>About Me</h1>
+            <p>My name is Mayank Bisht, a dedicated web developer and machine learning expert. I specialize in creating dynamic and engaging web experiences and developing machine learning models that help drive data-driven solutions. With a strong foundation in frontend technologies and a deep interest in artificial intelligence, I bring a unique blend of creativity and technical expertise to my projects.</p>
+            <h3>Education:</h3>
+            <p>Bachelor of Technology in Artificial Intelligence and Data Science, University School of Automation and Robotics (USAR).</p>
+        </section>
+
+        <section id="skills" class="info section">
+            <h1>My Skills</h1>
+            <div class="skills-list">
+                <h2>Frontend Development</h2>
+                <ul>
+                    <li><strong>HTML, CSS, JavaScript:</strong> Building responsive and accessible web pages with an emphasis on clean, maintainable code.</li>
+                    <li><strong>Responsive Design:</strong> Ensuring optimal display across various devices and screen sizes.</li>
+                    <li><strong>React, Angular:</strong> Utilizing modern frameworks to create dynamic, single-page applications.</li>
+                </ul>
+                <h2>Machine Learning & Data Science</h2>
+                <ul>
+                    <li><strong>Python Libraries:</strong> Proficient in Pandas, NumPy, and Matplotlib for data manipulation, analysis, and visualization.</li>
+                    <li><strong>Model Development:</strong> Creating and implementing machine learning models, including linear regression, decision trees, and neural networks.</li>
+                    <li><strong>Data Analysis:</strong> Applying statistical techniques to interpret data trends and patterns.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="info section">
+            <h1>Contact Me</h1>
+            <p>I'm excited to connect with you! Whether you have a project in mind, a question about my work, or just want to say hello, feel free to reach out. Fill out the form below to get in touch, and I’ll get back to you as soon as possible.</p>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="button">Send Message</button>
+            </form>
+            
+<section id="contact" class="info section">
+    <h1>Contact Me</h1>
+    <p>I'm excited to connect with you! Whether you have a project in mind, a question about my work, or just want to say hello, feel free to reach out. Fill out the form below to get in touch, and I’ll get back to you as soon as possible.</p>
+    <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit" class="button">Send Message</button>
+    </form>
+    
+    <div class="social-links">
+        <a href="https://twitter.com/mayankbisht12910" target="_blank" class="social-icon twitter">Twitter</a>
+        <a href="https://www.linkedin.com/in/mayank-bisht-a68491325" target="_blank" class="social-icon linkedin">LinkedIn</a>
+        <a href="https://instagram.com/mayankbisht029" target="_blank" class="social-icon instagram">Instagram</a>
+    </div>
+</section>
+
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
